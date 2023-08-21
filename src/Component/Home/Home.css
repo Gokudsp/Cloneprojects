@@ -1,0 +1,27 @@
+
+.home{
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+.home_image {
+  
+  width: 100%;
+  -webkit-mask-image: linear-gradient(180deg,#000,transparent);
+  mask-image: linear-gradient(180deg,#000,transparent);
+  z-index: -1;
+  margin-bottom: -50px;
+}
+
+.home_row{
+  display: flex;
+  justify-content: space-between;
+  z-index: 1;
+  margin-left: px;
+  margin-right: 10px;
+  
+}
+
